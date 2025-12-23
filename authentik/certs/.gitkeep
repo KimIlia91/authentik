@@ -1,0 +1,5 @@
+# SSL certificates directory
+# This directory is mounted to /certs in the worker container
+# Place SSL certificates here if needed for direct SSL configuration
+# For reverse proxy setups, this directory usually remains empty
+

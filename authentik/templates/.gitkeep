@@ -1,0 +1,4 @@
+# Custom templates directory
+# Place custom Django/HTML templates here to override Authentik's default templates
+# Templates placed here will be available at /templates in both server and worker containers
+
