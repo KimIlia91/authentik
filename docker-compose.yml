@@ -82,5 +82,4 @@ services:
     - ./authentik/media:/media
     - ./authentik/certs:/certs
     - ./authentik/templates:/templates
-# Volumes are now using bind mounts for better control
-# Database data is stored in ./authentik/data/postgres
+
