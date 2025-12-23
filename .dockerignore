@@ -1,0 +1,113 @@
+# Git files
+.git
+.gitignore
+.gitattributes
+.github/
+
+# Documentation
+README.md
+docs/
+*.md
+CHANGELOG.md
+LICENSE
+
+# Environment and configuration files
+.env
+.env.*
+.env.example
+.env.local
+.env.*.local
+
+# Docker files (not needed in image context)
+docker-compose.yml
+docker-compose.*.yml
+.dockerignore
+Dockerfile
+.docker/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-*
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Python (if any Python scripts exist)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+venv/
+env/
+ENV/
+.venv
+
+# Node.js (if any Node scripts exist)
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Backup files
+*.bak
+*.backup
+*.tmp
+*.temp
+*.old
+
+# Test files
+test/
+tests/
+*.test
+*.spec
+
+# Scripts (not needed in container)
+scripts/
+
+# Database dumps and backups
+*.sql
+*.dump
+backups/
+
+# Secrets and certificates (handled via volumes)
+# Note: We keep the structure but ignore actual certificate files
+authentik/certs/*.pem
+authentik/certs/*.key
+authentik/certs/*.crt
+authentik/certs/*.cert
+authentik/certs/*.p12
+authentik/certs/*.pfx
+
+# Data directories (mounted as volumes, not copied)
+authentik/data/
+authentik/media/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
